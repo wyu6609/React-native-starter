@@ -35,6 +35,8 @@ const SquareScreen = () => {
           ? null
           : setBlue(blue + change);
         return;
+      default:
+        return;
     }
   };
   console.log(red, green, blue);
